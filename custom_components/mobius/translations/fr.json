@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Arrêt Möbius",
+        "description": "Renseigne l'identifiant de l'arrêt (stop_id du GTFS Möbius), la ligne et le sens.",
+        "data": {
+          "name": "Nom du capteur",
+          "stop_id": "Identifiant de l'arrêt (stop_id)",
+          "route_id": "Identifiant de la ligne (route_id)",
+          "direction_id": "Sens (0 ou 1)"
+        }
+      }
+    },
+    "error": {
+      "missing_fields": "L'arrêt et la ligne sont obligatoires."
+    },
+    "abort": {
+      "already_configured": "Ce couple arrêt, ligne et sens est déjà configuré."
+    }
+  }
+}

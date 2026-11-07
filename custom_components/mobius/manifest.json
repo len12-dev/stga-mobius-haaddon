@@ -1,0 +1,11 @@
+{
+  "domain": "mobius",
+  "name": "Möbius Angoulême",
+  "codeowners": ["@len12-Dev"],
+  "config_flow": true,
+  "documentation": "https://github.com/len12-Dev/stga-mobius-haaddon",
+  "issue_tracker": "https://github.com/len12-Dev/stga-mobius-haaddon/issues",
+  "iot_class": "cloud_polling",
+  "requirements": ["gtfs-realtime-bindings"],
+  "version": "0.1.0"
+}
